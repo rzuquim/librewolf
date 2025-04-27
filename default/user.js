@@ -30,3 +30,10 @@ user_pref("startup.homepage_welcome_url.additional", "");
 user_pref("browser.startup.firstrunSkipsHomepage", true);
 user_pref("extensions.pocket.enabled", false); // disable Pocket integration
 user_pref("services.sync.engine.addons", false); // if you don't sync
+
+// disabling bookmarks feature
+user_pref("browser.urlbar.suggest.bookmark", false);
+user_pref("browser.bookmarks.showMobileBookmarks", false);
+user_pref("browser.bookmarks.autoExportHTML", false);
+user_pref("browser.bookmarks.editDialog.showForNewBookmarks", false);
+user_pref("browser.toolbars.bookmarks.visibility", "never");
