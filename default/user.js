@@ -1,3 +1,4 @@
+// startup page
 user_pref("browser.startup.page", 0); // 0 = blank page, 1 = previous session, 3 = homepage
 user_pref("browser.startup.homepage", "about:blank");
 user_pref("browser.newtabpage.enabled", false); // disable loading content on new tab
@@ -37,3 +38,7 @@ user_pref("browser.bookmarks.showMobileBookmarks", false);
 user_pref("browser.bookmarks.autoExportHTML", false);
 user_pref("browser.bookmarks.editDialog.showForNewBookmarks", false);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
+
+// appearance
+user_pref("sidebar.verticalTabs", true);
+user_pref("sidebar.position_start", false);
