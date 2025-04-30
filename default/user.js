@@ -42,3 +42,6 @@ user_pref("browser.toolbars.bookmarks.visibility", "never");
 // appearance
 user_pref("sidebar.verticalTabs", true);
 user_pref("sidebar.position_start", false);
+
+// Enable userChrome.css and userContent.css
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);

@@ -1,0 +1,40 @@
+/* NOTE: To inpect elements that are not dynamic
+*  https://github.com/rillian/firefox/blob/master/browser/base/content/browser.xul
+* */
+:root {
+  --bg: #222436;
+  --bg-dark: #1e2030;
+  --bg-highlight: #2f334d;
+  --fg: #c8d3f5;
+  --fg-dark: #3b4261;
+  --yellow: #ffc777;
+  --red: #ff757f;
+  --green: #4fd6be;
+  --purple: #fca7ea;
+  --blue: #65bcff;
+}
+
+#urlbar,
+#navigator-toolbox {
+  background-color: var(--bg) !important;
+  color: var(--fg) !important;
+}
+
+#urlbar #urlbar-background {
+  border: none !important;
+  background: none !important;
+}
+
+#urlbar:active {
+  color: var(--purple);
+}
+
+#bookmarks-menu-button,
+#page-action-buttons,
+#alltabs-button,
+#new-tab-button,
+.titlebar-close {
+  display: none !important;
+}
+
+/* TODO: apply colors to sidebar */
