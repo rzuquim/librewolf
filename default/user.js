@@ -43,5 +43,9 @@ user_pref("browser.toolbars.bookmarks.visibility", "never");
 user_pref("sidebar.verticalTabs", true);
 user_pref("sidebar.position_start", false);
 
+user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
+user_pref("browser.theme.toolbar-theme", 0);
+user_pref("browser.theme.content-theme", 0);
+
 // Enable userChrome.css and userContent.css
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
